@@ -1,0 +1,18 @@
+public class vector {
+    private int dimensao;
+    private int [] elementos ;
+
+    
+
+    public int getElementos(int i) {
+        return elementos[i];
+    }
+
+
+    public void set(int i,int valor){
+        this.elementos[i] = valor;
+    }
+
+
+
+}
